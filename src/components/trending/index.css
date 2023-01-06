@@ -1,0 +1,32 @@
+@font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  }
+
+.tren {
+    text-align: center;
+    font-family: neon;
+    color: #FB4264;
+    font-weight: 700;
+    font-size: 70px;
+    text-shadow: 0 0 3vw #F40A35;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-top: solid 10px white;
+    border-bottom: solid 10px white;
+    border-radius: 10px;
+}
+
+.GIPHY {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 10px;
+}
+
+.card-img {
+    width: 13rem;
+}
+
+.trending-container {
+    padding-top: 100px;
+}
